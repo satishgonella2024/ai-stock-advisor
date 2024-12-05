@@ -20,5 +20,79 @@ This project provides real-time stock analysis and insights using large language
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-stock-advisor.git
+git clone https://github.com/satishgonella2024/ai-stock-advisor.git
 cd ai-stock-advisor
+```
+## Set Up a Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Install and Configure Ollama
+
+	•	Install Ollama: Follow the instructions on the Ollama GitHub page.
+	•	Pull the Llama 2 Model:
+
+```bash
+ollama pull llama2
+```
+
+### Start the Ollama Server:
+
+```bash
+ollama serve
+```
+
+
+### Usage
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+Access the app in your web browser at http://localhost:8501.
+
+#### Project Structure
+```bash
+ai-stock-advisor/
+├── app.py
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── venv/
+```
+
+	•	app.py: Main application script
+	•	.gitignore: Specifies files for Git to ignore
+	•	README.md: Project documentation
+	•	requirements.txt: Python dependencies
+	•	venv/: Virtual environment directory (ignored by Git)
+
+Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Disclaimer
+
+This application is for educational purposes and does not constitute financial advice.
+
+Acknowledgments
+
+	•	Ollama for the Llama 2 model
+	•	Streamlit for the web framework
+	•	Yahoo Finance for stock data via yfinance
+
+---
