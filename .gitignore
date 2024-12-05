@@ -1,0 +1,46 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+
+# macOS files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Visual Studio Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.log
+
+# Ollama models (if any large files)
+*.bin
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Ignore secrets (if any)
+secrets.json
